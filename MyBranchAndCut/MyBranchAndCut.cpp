@@ -82,5 +82,6 @@ int main()
     catch (IloException ex) 
     {
         std::cout << ex.getMessage() << "\n";
+        throw ex;
     }
 }
